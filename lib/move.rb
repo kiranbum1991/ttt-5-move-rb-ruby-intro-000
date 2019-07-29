@@ -8,10 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index (user_input)
-  user_input = gets.chomp
-  user_input.to_i
-  user_input - 1
-  return user_input
+  user_input = gets.to_i - 1
 end
 
 def move
